@@ -7,6 +7,7 @@ https://github.com/javaserverfaces/mojarra/commit/ab72d90c45fcca422e80d4db95d232
 
 Related issue:
 https://github.com/javaee/javaserverfaces-spec/issues/1161
+https://github.com/javaserverfaces/mojarra/issues/4139
 
 Current implementation of ExternalContext:
 https://github.com/javaserverfaces/mojarra/blob/master/impl/src/main/java/com/sun/faces/context/ExternalContextImpl.java</h5>
