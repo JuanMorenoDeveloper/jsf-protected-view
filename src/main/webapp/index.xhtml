@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+	<title>jsf-protected-view Test</title>
+	<h:outputStylesheet library="css" name="tacit-css-1.1.0.min.css" />
+</h:head>
+<h:body>
+	<h4>Links</h4>
+	<h:link value="test_secure without param" outcome="test_secure" />
+	<br />
+	<h:link value="test_secure with param"
+		outcome="test_secure_with_params">
+		<f:param name="id" value="1" />
+	</h:link>
+	<br />
+	<h:form>
+		<h:commandButton value="Test"
+			actionListener="#{testView.testNavegation}" />
+	</h:form>
+</h:body>
+</html>
